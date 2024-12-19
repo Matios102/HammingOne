@@ -1,0 +1,35 @@
+# Ignore build files
+/build/
+/dist/
+/*.o
+/*.obj
+/*.exe
+/*.dll
+/*.so
+/*.dylib
+
+# Ignore temporary files
+*.tmp
+*.log
+*.swp
+*.swo
+*.bak
+
+# Ignore Python virtual environments
+/venv/
+/env/
+
+# Ignore IDE specific files
+/.idea/
+/.vscode/
+/*.sublime-project
+/*.sublime-workspace
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Cuda specific files
+*.ptx
+*.cubin
+*.fatbin
